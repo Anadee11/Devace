@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HomePage = () => {
   return (
@@ -12,8 +13,8 @@ const HomePage = () => {
             </div>
                 <p className="home-desc">A relaxation and recharging point for Developers</p>
             <div id="home-buttons">
-                <a href='#questionnaire'><button className="main-buttons" id="home-questionnaire">Test Yourself</button></a>
-                <a href='#resources'><button className="main-buttons" id="proceed-to-website">Proceed to Website</button></a>
+                <Link to='/test'><button className="main-buttons" id="home-questionnaire">Test Yourself</button></Link>
+                <Link to='/resources'><button className="main-buttons" id="proceed-to-website">Proceed to Website</button></Link>
                 
             </div>
         </div>
