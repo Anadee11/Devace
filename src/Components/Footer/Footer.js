@@ -21,7 +21,7 @@ const Footer = () => {
             </div> 
             <div className="lower-footer"> 
                 <div className="lower-footer-content-outer"> 
-                    <p className="lower-footer-content">Made with 🧡 by Nerd's Squad in </p> 
+                    <p className="lower-footer-content">Made with 🧡 by Nerd Squad in </p> 
                     <img src="/images/htm-logo.png" alt="" width={32} height={32} className="htm-img-footer" /> 
                 </div> 
             </div> 

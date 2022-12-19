@@ -41,7 +41,9 @@ body {
 }
 
 .page {
-  min-height: 100vh;
+  height:80%;
+  overflow: auto;
+  min-height: 60vh;
   width: 100%;
 }
 
@@ -81,15 +83,17 @@ body {
 /* HEADER */
 
 #header {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
   display: flex;
   height: 70px;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
   width: 100%;
-  position: fixed;
   background-color: #ffffff4a;
-  top: 0;
   z-index: 100;
 }
 

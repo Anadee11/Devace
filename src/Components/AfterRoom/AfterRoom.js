@@ -72,8 +72,8 @@ class AfterRoom extends React.Component {
   render() { 
     return ( 
       <> 
-        <div className="relax-container"> 
-          <img src='/images/gif2.gif' className='relax-bg' style={{ width: "100%", height: "100%" }} alt=""/> 
+        <div className="relax-container page"> 
+          <img src='/images/gif2.gif' className='relax-bg' width={"100%"} height={"100%"} alt=""/> 
           <div className="relax-heading">Relaxation Room</div> 
         </div> 
         <div className="lower-container"> 
